@@ -24,3 +24,13 @@ Features:
 * Add bookmarks for quickly returning to a URL
 * Fullscreen mode (hit the home button and reopen to return to normal mode)
 * WebGL!
+
+Notes
+---------
+
+* Q3BSP runs at 60FPS on my iPhone 4S and iPad 2 - nice!
+* WebGL Aquarium is slow (20-25FPS) - likely due to some scaling tricks used
+  * Avoid scaling your canvas with CSS or doing canvas->canvas draws
+* Some demos don't work because people are using platform detection
+  * Use feature detection!
+* JSON parsing is slow - demos that parse large JSON blobs for models/etc will take awhile to load
