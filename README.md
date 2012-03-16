@@ -1,12 +1,12 @@
 WebGLBrowser - a simple iOS browser shim that enables WebGL
 ========
 
-Early last year (James Darpinian)[https://twitter.com/modeless] discovered the hidden property required to get WebGL
+Early last year [James Darpinian](https://twitter.com/modeless) discovered the hidden property required to get WebGL
 toggled on in UIWebView on iOS. We hacked together some shims that made it possible to run WebGL pages and although
 the underlying WebKit implementation of WebGL had some issues it was good enough for testing.
 
 Flash forward to today: I lost the shim I had written and wanted to test some WebGL content on a touch device. I
-found a great article by (Nathan de Vries)[http://atnan.com/blog/2011/11/03/enabling-and-using-webgl-on-ios/] that
+found a great article by [Nathan de Vries](http://atnan.com/blog/2011/11/03/enabling-and-using-webgl-on-ios/) that
 goes in depth through the process James did so long ago, and it inspired me to whip up something a bit more useful
 than what I had before.
 
