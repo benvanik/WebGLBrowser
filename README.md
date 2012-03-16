@@ -1,6 +1,14 @@
 WebGLBrowser - an iOS browser shim with WebGL
 ========
 
+This is a simple wrapper around UIWebView, the built-in WebKit-based browser that ships as part of iOS. It adds
+some bookmarking and other features handy for testing, and enables the WebGL functionality that's in the iOS
+WebKit available to iAds. You can't ship anything with this, but you can test your code and it runs well enough
+to start developing touch-enabled 3D web apps. Enjoy!
+
+WTF?
+---------
+
 Early last year [James Darpinian](https://twitter.com/modeless) discovered the hidden property required to get WebGL
 toggled on in UIWebView on iOS. We hacked together some shims that made it possible to run WebGL pages and although
 the underlying WebKit implementation of WebGL had some issues it was good enough for testing.
