@@ -1,4 +1,4 @@
-WebGLBrowser - a simple iOS browser shim that enables WebGL
+WebGLBrowser - an iOS browser shim with WebGL
 ========
 
 Early last year [James Darpinian](https://twitter.com/modeless) discovered the hidden property required to get WebGL
