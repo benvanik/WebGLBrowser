@@ -21,6 +21,10 @@
 		902FAAAA1512A68E0002FD00 /* GLBMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAA81512A68E0002FD00 /* GLBMasterViewController_iPad.xib */; };
 		902FAAAD1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAAB1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib */; };
 		902FAAB01512A68E0002FD00 /* GLBDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAAE1512A68E0002FD00 /* GLBDetailViewController_iPad.xib */; };
+		90ED1A131513BC0300E613C5 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 90ED1A0F1513BC0300E613C5 /* icon-57.png */; };
+		90ED1A141513BC0300E613C5 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 90ED1A101513BC0300E613C5 /* icon-72.png */; };
+		90ED1A151513BC0300E613C5 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 90ED1A111513BC0300E613C5 /* icon-114.png */; };
+		90ED1A161513BC0300E613C5 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 90ED1A121513BC0300E613C5 /* icon-144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		902FAAA91512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBMasterViewController_iPad.xib; sourceTree = "<group>"; };
 		902FAAAC1512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBDetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		902FAAAF1512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		90ED1A0F1513BC0300E613C5 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		90ED1A101513BC0300E613C5 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		90ED1A111513BC0300E613C5 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		90ED1A121513BC0300E613C5 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				902FAA901512A68E0002FD00 /* WebGLBrowser */,
+				90ED1A0D1513BBE300E613C5 /* Resources */,
+				90ED1A0E1513BBF300E613C5 /* Icons */,
 				902FAA871512A68E0002FD00 /* Frameworks */,
 				902FAA851512A68E0002FD00 /* Products */,
 			);
@@ -117,6 +127,24 @@
 				902FAA981512A68E0002FD00 /* WebGLBrowser-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90ED1A0D1513BBE300E613C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		90ED1A0E1513BBF300E613C5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				90ED1A0F1513BC0300E613C5 /* icon-57.png */,
+				90ED1A101513BC0300E613C5 /* icon-72.png */,
+				90ED1A111513BC0300E613C5 /* icon-114.png */,
+				90ED1A121513BC0300E613C5 /* icon-144.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +203,10 @@
 				902FAAAA1512A68E0002FD00 /* GLBMasterViewController_iPad.xib in Resources */,
 				902FAAAD1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib in Resources */,
 				902FAAB01512A68E0002FD00 /* GLBDetailViewController_iPad.xib in Resources */,
+				90ED1A131513BC0300E613C5 /* icon-57.png in Resources */,
+				90ED1A141513BC0300E613C5 /* icon-72.png in Resources */,
+				90ED1A151513BC0300E613C5 /* icon-114.png in Resources */,
+				90ED1A161513BC0300E613C5 /* icon-144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
