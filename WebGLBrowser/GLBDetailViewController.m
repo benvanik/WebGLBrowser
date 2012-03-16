@@ -52,10 +52,10 @@
     if (_detailItem != newDetailItem) {
         [_detailItem release]; 
         _detailItem = [newDetailItem retain]; 
-
-        // Update the view.
-        [self configureView];
     }
+
+    // Always reload the page, even if the item is the same
+    [self configureView];
 
     if (self.masterPopoverController != nil) {
         [self.masterPopoverController dismissPopoverAnimated:YES];
@@ -81,6 +81,7 @@
         [self navigateToURL:[self.detailItem valueForKey:@"url"]];
     } else {
         [self setTitle:NSLocalizedString(@"Page", @"Page")];
+        [self navigateToURL:@"http://www.google.com/"];
     }
 }
 
