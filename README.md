@@ -24,6 +24,7 @@ Features:
 * Add bookmarks for quickly returning to a URL
 * Fullscreen mode (hit the home button and reopen to return to normal mode)
 * WebGL!
+* AirPlay mirroring works (there's a bit of a lag, but the framerate is good)
 
 Notes
 ---------
