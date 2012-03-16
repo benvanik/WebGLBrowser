@@ -35,3 +35,26 @@ Notes
 * Some demos don't work because people are using platform detection
   * Use feature detection!
 * JSON parsing is slow - demos that parse large JSON blobs for models/etc will take awhile to load
+
+WebGL Conformance Tests
+---------
+I ran a few of the conformance test suites. Unfortunately the test runner hides the output at the end, so I can't
+see all of the results.
+
+* 1.0.0: 5626 of 5649 passed, 1 timed out
+  * The video test timed out
+* 1.0.1:
+  * drawingBufferWidth/Height are undefined
+  * Many programs fail to link, causing many test errors
+  * Looks like there are some deletion errors (not properly clearing state/cleaning bindings)
+  * Long variable name handling in shaders ir broken
+  * gl.getParameter(gl.COMPRESSED_TEXTURE_FORMATS) == null
+  * gl.getProgramParameter(gl.LINK_STATUS) == true | null (not false!) - likely the same for shaders
+  * CORS handling is broken (looks like it doesn't check at all)
+  * pixelStorei has issues (likely being ignored)
+  * NPOT cubemaps broken
+  * Uploading custom mip levels is brokenish
+  * TypedArrays has a few errors with wrapping ArrayBuffer in ArrayBufferView (and no Float64Array)
+    * conformance/typedarrays/array-unit-tests.html
+  * copyTexImage2D has issues
+* 1.0.2: Crash!
