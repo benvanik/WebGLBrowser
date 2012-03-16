@@ -7,7 +7,7 @@ the underlying WebKit implementation of WebGL had some issues it was good enough
 
 Flash forward to today: I lost the shim I had written and wanted to test some WebGL content on a touch device. I
 found a great article by [Nathan de Vries](http://atnan.com/blog/2011/11/03/enabling-and-using-webgl-on-ios/) that
-goes in depth through the process James did so long ago, and it inspired me to whip up something a bit more useful
+goes in depth through the process James did so long ago and it inspired me to whip up something a bit more useful
 than what I had before.
 
 So, here it is. It's super hacky, unreleasable on the App Store (due to the use of private APIs), and since WebGL
@@ -19,7 +19,8 @@ despite some likely inefficient compositing capping the framerate at just under 
 In theory, one can grab the latest Xcode with iOS SDK, build, and run on their device with no changes. Should work
 on both iPhone and iPad with iOS5+.
 
-Features:
+Features
+---------
 
 * Add bookmarks for quickly returning to a URL
 * Fullscreen mode (hit the home button and reopen to return to normal mode)
@@ -34,12 +35,12 @@ Notes
   * Avoid scaling your canvas with CSS or doing canvas->canvas draws
 * Some demos don't work because people are using platform detection
   * Use feature detection!
-* JSON parsing is slow - demos that parse large JSON blobs for models/etc will take awhile to load
+* JSON parsing in mobile WebKit is slow - demos that parse large JSON blobs for models/etc will take awhile to load
 
 WebGL Conformance Tests
 ---------
 I ran a few of the conformance test suites. Unfortunately the test runner hides the output at the end, so I can't
-see all of the results.
+see all of the results. Some things the tests highlight that one should watch out for when testing their own code:
 
 * 1.0.0: 5626 of 5649 passed, 1 timed out
   * The video test timed out
