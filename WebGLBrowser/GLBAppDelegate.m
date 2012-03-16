@@ -238,6 +238,8 @@
             withTitle:@"WebGL Conformance Test 1.0.1"];
     [self addBookmark:@"https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/sdk/tests/webgl-conformance-tests.html"
             withTitle:@"WebGL Conformance Test (Latest)"];
+    [self addBookmark:@"http://glsl.heroku.com/"
+            withTitle:@"GLSL Sandbox"];
 }
 
 - (void)addBookmark:(NSString*)url
