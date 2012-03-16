@@ -55,6 +55,6 @@ see all of the results.
   * NPOT cubemaps broken
   * Uploading custom mip levels is brokenish
   * TypedArrays has a few errors with wrapping ArrayBuffer in ArrayBufferView (and no Float64Array)
-    * conformance/typedarrays/array-unit-tests.html
+      * conformance/typedarrays/array-unit-tests.html
   * copyTexImage2D has issues
 * 1.0.2: Crash!
