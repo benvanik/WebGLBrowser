@@ -232,6 +232,12 @@
             withTitle:@"Learning WebGL Lesson 16"];
     [self addBookmark:@"http://media.tojicode.com/q3bsp/"
             withTitle:@"Quake 3 WebGL Demo"];
+    [self addBookmark:@"https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/conformance-suites/1.0.0/webgl-conformance-tests.html"
+            withTitle:@"WebGL Conformance Test 1.0.0"];
+    [self addBookmark:@"https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/conformance-suites/1.0.1/webgl-conformance-tests.html"
+            withTitle:@"WebGL Conformance Test 1.0.1"];
+    [self addBookmark:@"https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/sdk/tests/webgl-conformance-tests.html"
+            withTitle:@"WebGL Conformance Test (Latest)"];
 }
 
 - (void)addBookmark:(NSString*)url
