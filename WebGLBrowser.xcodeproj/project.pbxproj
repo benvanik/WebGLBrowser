@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902FAA891512A68E0002FD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA881512A68E0002FD00 /* UIKit.framework */; };
+		902FAA8B1512A68E0002FD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA8A1512A68E0002FD00 /* Foundation.framework */; };
+		902FAA8D1512A68E0002FD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA8C1512A68E0002FD00 /* CoreGraphics.framework */; };
+		902FAA8F1512A68E0002FD00 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA8E1512A68E0002FD00 /* CoreData.framework */; };
+		902FAA951512A68E0002FD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902FAA931512A68E0002FD00 /* InfoPlist.strings */; };
+		902FAA971512A68E0002FD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FAA961512A68E0002FD00 /* main.m */; };
+		902FAA9B1512A68E0002FD00 /* GLBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FAA9A1512A68E0002FD00 /* GLBAppDelegate.m */; };
+		902FAA9E1512A68E0002FD00 /* WebGLBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 902FAA9C1512A68E0002FD00 /* WebGLBrowser.xcdatamodeld */; };
+		902FAAA11512A68E0002FD00 /* GLBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FAAA01512A68E0002FD00 /* GLBMasterViewController.m */; };
+		902FAAA41512A68E0002FD00 /* GLBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FAAA31512A68E0002FD00 /* GLBDetailViewController.m */; };
+		902FAAA71512A68E0002FD00 /* GLBMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAA51512A68E0002FD00 /* GLBMasterViewController_iPhone.xib */; };
+		902FAAAA1512A68E0002FD00 /* GLBMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAA81512A68E0002FD00 /* GLBMasterViewController_iPad.xib */; };
+		902FAAAD1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAAB1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib */; };
+		902FAAB01512A68E0002FD00 /* GLBDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FAAAE1512A68E0002FD00 /* GLBDetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		902FAA841512A68E0002FD00 /* WebGLBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGLBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902FAA881512A68E0002FD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		902FAA8A1512A68E0002FD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		902FAA8C1512A68E0002FD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		902FAA8E1512A68E0002FD00 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		902FAA921512A68E0002FD00 /* WebGLBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebGLBrowser-Info.plist"; sourceTree = "<group>"; };
+		902FAA941512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		902FAA961512A68E0002FD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		902FAA981512A68E0002FD00 /* WebGLBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebGLBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		902FAA991512A68E0002FD00 /* GLBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBAppDelegate.h; sourceTree = "<group>"; };
+		902FAA9A1512A68E0002FD00 /* GLBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBAppDelegate.m; sourceTree = "<group>"; };
+		902FAA9D1512A68E0002FD00 /* WebGLBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebGLBrowser.xcdatamodel; sourceTree = "<group>"; };
+		902FAA9F1512A68E0002FD00 /* GLBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBMasterViewController.h; sourceTree = "<group>"; };
+		902FAAA01512A68E0002FD00 /* GLBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBMasterViewController.m; sourceTree = "<group>"; };
+		902FAAA21512A68E0002FD00 /* GLBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBDetailViewController.h; sourceTree = "<group>"; };
+		902FAAA31512A68E0002FD00 /* GLBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBDetailViewController.m; sourceTree = "<group>"; };
+		902FAAA61512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		902FAAA91512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		902FAAAC1512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		902FAAAF1512A68E0002FD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLBDetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902FAA811512A68E0002FD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FAA891512A68E0002FD00 /* UIKit.framework in Frameworks */,
+				902FAA8B1512A68E0002FD00 /* Foundation.framework in Frameworks */,
+				902FAA8D1512A68E0002FD00 /* CoreGraphics.framework in Frameworks */,
+				902FAA8F1512A68E0002FD00 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902FAA791512A68E0002FD00 = {
+			isa = PBXGroup;
+			children = (
+				902FAA901512A68E0002FD00 /* WebGLBrowser */,
+				902FAA871512A68E0002FD00 /* Frameworks */,
+				902FAA851512A68E0002FD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902FAA851512A68E0002FD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902FAA841512A68E0002FD00 /* WebGLBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902FAA871512A68E0002FD00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				902FAA881512A68E0002FD00 /* UIKit.framework */,
+				902FAA8A1512A68E0002FD00 /* Foundation.framework */,
+				902FAA8C1512A68E0002FD00 /* CoreGraphics.framework */,
+				902FAA8E1512A68E0002FD00 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902FAA901512A68E0002FD00 /* WebGLBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				902FAA991512A68E0002FD00 /* GLBAppDelegate.h */,
+				902FAA9A1512A68E0002FD00 /* GLBAppDelegate.m */,
+				902FAA9F1512A68E0002FD00 /* GLBMasterViewController.h */,
+				902FAAA01512A68E0002FD00 /* GLBMasterViewController.m */,
+				902FAAA21512A68E0002FD00 /* GLBDetailViewController.h */,
+				902FAAA31512A68E0002FD00 /* GLBDetailViewController.m */,
+				902FAAA51512A68E0002FD00 /* GLBMasterViewController_iPhone.xib */,
+				902FAAA81512A68E0002FD00 /* GLBMasterViewController_iPad.xib */,
+				902FAAAB1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib */,
+				902FAAAE1512A68E0002FD00 /* GLBDetailViewController_iPad.xib */,
+				902FAA9C1512A68E0002FD00 /* WebGLBrowser.xcdatamodeld */,
+				902FAA911512A68E0002FD00 /* Supporting Files */,
+			);
+			path = WebGLBrowser;
+			sourceTree = "<group>";
+		};
+		902FAA911512A68E0002FD00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				902FAA921512A68E0002FD00 /* WebGLBrowser-Info.plist */,
+				902FAA931512A68E0002FD00 /* InfoPlist.strings */,
+				902FAA961512A68E0002FD00 /* main.m */,
+				902FAA981512A68E0002FD00 /* WebGLBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902FAA831512A68E0002FD00 /* WebGLBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902FAAB31512A68F0002FD00 /* Build configuration list for PBXNativeTarget "WebGLBrowser" */;
+			buildPhases = (
+				902FAA801512A68E0002FD00 /* Sources */,
+				902FAA811512A68E0002FD00 /* Frameworks */,
+				902FAA821512A68E0002FD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebGLBrowser;
+			productName = WebGLBrowser;
+			productReference = 902FAA841512A68E0002FD00 /* WebGLBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902FAA7B1512A68E0002FD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Ben Vanik";
+			};
+			buildConfigurationList = 902FAA7E1512A68E0002FD00 /* Build configuration list for PBXProject "WebGLBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 902FAA791512A68E0002FD00;
+			productRefGroup = 902FAA851512A68E0002FD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902FAA831512A68E0002FD00 /* WebGLBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902FAA821512A68E0002FD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FAA951512A68E0002FD00 /* InfoPlist.strings in Resources */,
+				902FAAA71512A68E0002FD00 /* GLBMasterViewController_iPhone.xib in Resources */,
+				902FAAAA1512A68E0002FD00 /* GLBMasterViewController_iPad.xib in Resources */,
+				902FAAAD1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib in Resources */,
+				902FAAB01512A68E0002FD00 /* GLBDetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902FAA801512A68E0002FD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FAA971512A68E0002FD00 /* main.m in Sources */,
+				902FAA9B1512A68E0002FD00 /* GLBAppDelegate.m in Sources */,
+				902FAA9E1512A68E0002FD00 /* WebGLBrowser.xcdatamodeld in Sources */,
+				902FAAA11512A68E0002FD00 /* GLBMasterViewController.m in Sources */,
+				902FAAA41512A68E0002FD00 /* GLBDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		902FAA931512A68E0002FD00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FAA941512A68E0002FD00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		902FAAA51512A68E0002FD00 /* GLBMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FAAA61512A68E0002FD00 /* en */,
+			);
+			name = GLBMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		902FAAA81512A68E0002FD00 /* GLBMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FAAA91512A68E0002FD00 /* en */,
+			);
+			name = GLBMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		902FAAAB1512A68E0002FD00 /* GLBDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FAAAC1512A68E0002FD00 /* en */,
+			);
+			name = GLBDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		902FAAAE1512A68E0002FD00 /* GLBDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FAAAF1512A68E0002FD00 /* en */,
+			);
+			name = GLBDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902FAAB11512A68E0002FD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902FAAB21512A68E0002FD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902FAAB41512A68F0002FD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebGLBrowser/WebGLBrowser-Prefix.pch";
+				INFOPLIST_FILE = "WebGLBrowser/WebGLBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		902FAAB51512A68F0002FD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebGLBrowser/WebGLBrowser-Prefix.pch";
+				INFOPLIST_FILE = "WebGLBrowser/WebGLBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902FAA7E1512A68E0002FD00 /* Build configuration list for PBXProject "WebGLBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902FAAB11512A68E0002FD00 /* Debug */,
+				902FAAB21512A68E0002FD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902FAAB31512A68F0002FD00 /* Build configuration list for PBXNativeTarget "WebGLBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902FAAB41512A68F0002FD00 /* Debug */,
+				902FAAB51512A68F0002FD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		902FAA9C1512A68E0002FD00 /* WebGLBrowser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				902FAA9D1512A68E0002FD00 /* WebGLBrowser.xcdatamodel */,
+			);
+			currentVersion = 902FAA9D1512A68E0002FD00 /* WebGLBrowser.xcdatamodel */;
+			path = WebGLBrowser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 902FAA7B1512A68E0002FD00 /* Project object */;
+}
