@@ -47,7 +47,10 @@
     // This will enable remote debugging when running in the iOS simulator
     // Launch and navigate to http://localhost:9999
     // It does not yet work with devices
+    // Only enable in the simulator so we don't hurt perf on devices
+#if TARGET_IPHONE_SIMULATOR
     [NSClassFromString(@"WebView") _enableRemoteInspector];
+#endif
 
     [self addDefaultBookmarks];
     
