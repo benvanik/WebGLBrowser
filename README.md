@@ -34,6 +34,18 @@ Features
 * Fullscreen mode (hit the home button and reopen to return to normal mode)
 * WebGL!
 * AirPlay mirroring works (there's a bit of a lag, but the framerate is good)
+* Remote inspecting when running in the iOS simulator
+
+Inspecting Pages
+---------
+
+Using [Nathan de Vries](http://atnan.com/blog/2011/11/17/enabling-remote-debugging-via-private-apis-in-mobile-safari/)'
+awesome find, you can now run the WebKit Inspector against pages loaded in the app. Unfortunately you can't inspect
+pages running on device yet, but it's a full featured inspector (debugging/networking/sampling/etc) and it should match
+device features.
+
+To use, launch the app in either the iPhone or iPad simulator, navigate to a page, and then open http://localhost:9999
+in Safari (no other browser works).
 
 Notes
 ---------
