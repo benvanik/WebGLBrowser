@@ -173,7 +173,7 @@
 		902FAA7B1512A68E0002FD00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Ben Vanik";
 			};
 			buildConfigurationList = 902FAA7E1512A68E0002FD00 /* Build configuration list for PBXProject "WebGLBrowser" */;

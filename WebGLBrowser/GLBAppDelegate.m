@@ -36,8 +36,19 @@
     [super dealloc];
 }
 
+// Unused - prevents warning
+- (void)_enableRemoteInspector {
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // From Nathan de Vries:
+    // http://atnan.com/blog/2011/11/17/enabling-remote-debugging-via-private-apis-in-mobile-safari/
+    // This will enable remote debugging when running in the iOS simulator
+    // Launch and navigate to http://localhost:9999
+    // It does not yet work with devices
+    [NSClassFromString(@"WebView") _enableRemoteInspector];
+
     [self addDefaultBookmarks];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
