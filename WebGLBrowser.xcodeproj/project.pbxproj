@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90087429160E3EA9002719DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90087428160E3EA9002719DA /* Default-568h@2x.png */; };
 		902FAA891512A68E0002FD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA881512A68E0002FD00 /* UIKit.framework */; };
 		902FAA8B1512A68E0002FD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA8A1512A68E0002FD00 /* Foundation.framework */; };
 		902FAA8D1512A68E0002FD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FAA8C1512A68E0002FD00 /* CoreGraphics.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90087428160E3EA9002719DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		902FAA841512A68E0002FD00 /* WebGLBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGLBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		902FAA881512A68E0002FD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		902FAA8A1512A68E0002FD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 		902FAA791512A68E0002FD00 = {
 			isa = PBXGroup;
 			children = (
+				90087428160E3EA9002719DA /* Default-568h@2x.png */,
 				902FAA901512A68E0002FD00 /* WebGLBrowser */,
 				90ED1A0D1513BBE300E613C5 /* Resources */,
 				90ED1A0E1513BBF300E613C5 /* Icons */,
@@ -207,6 +210,7 @@
 				90ED1A141513BC0300E613C5 /* icon-72.png in Resources */,
 				90ED1A151513BC0300E613C5 /* icon-114.png in Resources */,
 				90ED1A161513BC0300E613C5 /* icon-144.png in Resources */,
+				90087429160E3EA9002719DA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
